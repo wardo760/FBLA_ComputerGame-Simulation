@@ -1,0 +1,35 @@
+Welcome, before trying to run the executable file, you must install a couple libraries using PIP.
+The user must also have python installed along with pyinstaller in order to run pip install commands in terminal.
+
+Install Python from https://www.python.org/downloads/, and make sure to check/click pyinstaller in the setup application.
+Install pygame using "pip install pygame"
+
+
+Also make sure to download all the image files and all the python files.
+Make sure all the files are located in the same folder.
+
+Functionality:
+	Game 1
+	-x
+  -x
+  -x
+  -x
+
+	Game2
+	-x
+  -x
+  -x
+  -x
+
+	Game 3
+	-x
+  -x
+  -x
+  -x
+
+How does it work?
+	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
