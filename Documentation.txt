@@ -1,35 +1,46 @@
-Welcome, before trying to run the executable file, you must install a couple libraries using PIP.
-The user must also have python installed along with pyinstaller in order to run pip install commands in terminal.
+Welcome, before trying to run the executable file, you must install a couple of libraries using PIP.
+The user must also have python installed along with pyinstaller in order to run pip install commands in the terminal.
 
 Install Python from https://www.python.org/downloads/, and make sure to check/click pyinstaller in the setup application.
 Install pygame using "pip install pygame"
 
 
-Also make sure to download all the image files and all the python files.
+Also, make sure to download all the image files and all the python files.
 Make sure all the files are located in the same folder.
 
 Functionality:
+	Introduction Screen
+	- The user uses the up and down keys to scroll through the different pages: start, controls, and leaderboard
+	- The user uses the space bar to open each page
+	- The start page starts the game
+	- The controls page opens the game's controls, use r to return to the select screen
+	- The leaderboard page opens a text file that holds the names and times of past players, hit the x to exit the leaderboard
+	
 	Game 1
-	-x
-  -x
-  -x
-  -x
+	- A remake of Pong
+  	- The user uses the up and down keys to control the paddle
+  	- The enemy paddle tracks the ball by constantly going to its location
+  	- Every time the ball hits a paddle its speed increases
+	- If the ball goes past the user's paddle the game restarts and returns to the home screen
+	- If the ball goes past the enemy's paddle the game transitions to game 2
+	- Use r to restart and return to the home screen
 
 	Game2
-	-x
-  -x
-  -x
-  -x
+	- A remake of Breakout
+	- The user uses the space key to start the game
+  	- The user uses the right and left keys to control the paddle
+  	- If the ball hits a brick it deletes the brick
+  	- If the ball goes past the paddle the game restarts and returns to the home screen
+	- If the ball hits the top of the screen the game transitions to game 3
+	- Use r to restart and return to the home screen
 
 	Game 3
-	-x
-  -x
-  -x
-  -x
+	- A remake of Pac-man
+  	- The user uses all the arrow keys to move the character
+  	- The ghosts move back and forth across the screen continuously
+  	- If the user eats all the white squares the game ends and enter the win screen where it displays the time and where the user can enter their initials
+	- If the user comes in contact with the ghost the game restarts and returns to the home screen
+	- Use r to restart and return to the home screen
 
 How does it work?
-	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-
-
+	Our program uses pygame which has certain functions that make the game design in python easier. Pygame can detect key presses which are used to move the x and y values of images or the characters. Pygames sprites work by displaying the image. If the user wants to move the sprite a background image covers the old sprite and a new sprite is displayed.
